@@ -18,6 +18,7 @@ void radio_setup()
   radio.stopListening();
   radio.openWritingPipe(address);
   radio.openReadingPipe(1, invert_address);
+//  radio.printDetails(); // programm wird zu groß
 }
 
 //************************************************************************************************************************************************************************
